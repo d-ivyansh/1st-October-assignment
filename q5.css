@@ -1,0 +1,198 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 1460px;
+  height: 1100px;
+  font-family: Inter;
+}
+
+nav {
+  display: flex;
+}
+.logo_container {
+  display: flex;
+  width: 399px;
+  height: 129px;
+  gap: 20px;
+  padding-top: 51px;
+  padding-left: 100px;
+}
+.menu_container {
+  width: 321.806px;
+  height: 68.875px;
+  flex-shrink: 0;
+  padding-top: 63.5px;
+}
+.menu_items {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 25.347px;
+  padding-bottom: 12.5px;
+}
+
+.menu_buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20.278px;
+}
+button {
+  display: flex;
+  padding: 10.139px 15.208px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.139px;
+  border-radius: 5.069px;
+}
+.checked {
+  background: var(--FB792B, #fb792b);
+}
+.header_title{
+    width: 438px;
+height: 118.083px;
+flex-shrink: 0;
+margin-top: 91px;
+margin-left: 100px;
+}
+.title_IR{
+    color: var(--333333, #333);
+font-family: Inter;
+font-size: 48.667px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.safety{
+    color: var(--01BB0A, #01BB0A);
+font-family: Inter;
+font-size: 32.444px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.security{
+    color: var(--FB792B, #FB792B);
+font-family: Inter;
+font-size: 32.444px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.punctuality{
+    color: var(--213D77, #213D77);
+font-family: Inter;
+font-size: 32.444px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.sub_button{
+    display: inline-flex;
+align-items: flex-start;
+gap: 20.278px;
+margin-left: 100px;
+margin-top: 81.65px;
+
+}
+button.book_ticket {
+    display: flex;
+padding: 10.139px 15.208px;
+justify-content: center;
+align-items: center;
+gap: 10.139px;
+border-radius: 5.069px;
+background: var(--213D77, #213D77);
+color: #FFF;
+color: var(--FFFFFF, #FFF);
+font-family: Inter;
+font-size: 18.25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+button.non_checked{
+    display: flex;
+padding: 10.139px 15.208px;
+justify-content: center;
+align-items: center;
+gap: 10.139px;
+    border-radius: 5.069px;
+border: 1.014px solid rgba(51, 51, 51, 0.50);
+background: var(--FFFFFF, #FFF);
+color: var(--333333, #333);
+font-family: Inter;
+font-size: 18.25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+ .journey-details-section-container{
+    border: 1px solid lightgray;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 44px;
+}
+
+ .card-element{
+display: flex;
+align-items: center;
+
+}
+.card-element-image-container img{
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+ .select-option{
+display: flex;
+flex-direction: column;
+gap: 5px;
+cursor: pointer;
+}
+ .choose-location span{
+font-size: 12px;
+color: gray;
+}
+ .dropdown{
+display: flex;
+align-items: center;
+color:gray;
+}
+.right {
+  width: 1460px;
+  height: 1100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.search-button{
+    width: 618.472px;
+height: 81.111px;
+flex-shrink: 0;
+    border-radius: 10.139px;
+background: var(--01BB0A, #01BB0A);
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 25.347px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+margin-top: 57px;
+}

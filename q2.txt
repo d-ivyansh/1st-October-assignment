@@ -1,0 +1,13 @@
+ 1.justify content:     Works along main axis of the container
+
+
+ 2.align-items:         This property aligns the flex items along the cross axis of the container.
+
+
+ 3.gap:                 The gap property is used to set the spacing between flex items in a flex container. It applies to both the main axis and the cross axis, providing a shorthand for row-gap and column-gap in grid layouts as well.
+ 
+ 
+ 4.flex-direction:      This property determines the direction in which the flex items are placed inside the flex container. It can be set to values like row (default), row-reverse, column, or column-reverse.
+ 
+ 
+ 5.flex-wrap:           The flex-wrap property determines whether the flex container should wrap its items onto multiple lines or stay on a single line. By default, the value is set to nowrap, meaning that all flex items are placed on a single line.
